@@ -1,0 +1,47 @@
+    Pruebas de funcionalidad:
+        Registro de usuario: Verificar que los usuarios puedan registrarse correctamente en la plataforma.
+        Inicio de sesión: Confirmar que los usuarios puedan iniciar sesión con éxito en sus cuentas.
+        Búsqueda de productos: Probar la funcionalidad de búsqueda para asegurarse de que los usuarios puedan encontrar camisetas por diversos criterios (nombre, categoría, precio, etc.).
+        Agregar al carrito: Verificar que los usuarios puedan agregar productos al carrito de compras.
+        Proceso de pago: Confirmar que los usuarios puedan realizar una compra exitosa utilizando diferentes métodos de pago (tarjeta de crédito, PayPal, etc.).
+        Gestión de pedidos: Verificar que los usuarios puedan ver el estado de sus pedidos y realizar acciones como cancelar o modificar un pedido.
+        Gestión de cuenta: Probar la funcionalidad de editar perfil, cambiar contraseña, y otros ajustes de cuenta.
+
+    Pruebas de rendimiento:
+        Tiempo de carga: Medir el tiempo que tarda en cargar la página principal y otras páginas clave para garantizar una experiencia rápida para los usuarios.
+        Rendimiento del servidor: Evaluar cómo responde el servidor ante diferentes cargas de tráfico para evitar problemas de rendimiento.
+        Pruebas de estrés: Simular cargas extremas para evaluar la estabilidad del sistema y su capacidad para manejar picos de tráfico.
+
+    Pruebas de compatibilidad:
+        Navegadores web: Verificar que la plataforma funcione correctamente en los principales navegadores web (Chrome, Firefox, Safari, Edge, etc.).
+        Dispositivos: Probar la compatibilidad en diferentes dispositivos, como computadoras de escritorio, tabletas y teléfonos móviles.
+
+    Pruebas de seguridad:
+        Protección de datos: Verificar que la información del usuario esté protegida adecuadamente y que se sigan las normativas de privacidad, como GDPR.
+        Prevención de ataques: Realizar pruebas de seguridad para identificar posibles vulnerabilidades como inyecciones SQL, cross-site scripting (XSS), entre otros.
+
+    Pruebas de interfaz gráfica:
+        Diseño y navegación: Verificar que el diseño de la página sea coherente y que la navegación sea intuitiva para los usuarios.
+        Resolución de pantalla: Probar la apariencia de la web en diferentes resoluciones de pantalla para garantizar una experiencia visual adecuada.
+        Compatibilidad con dispositivos táctiles: Verificar que la web sea fácil de usar en dispositivos táctiles, como tabletas y teléfonos móviles.
+        Validación de formularios: Confirmar que los formularios de registro, inicio de sesión y pago funcionen correctamente y muestren mensajes de error apropiados en caso de datos incorrectos.
+
+    Pruebas de contenido:
+        Precios y descripciones: Verificar que los precios de los productos sean correctos y que las descripciones de los productos sean precisas y completas.
+        Imágenes: Confirmar que las imágenes de los productos se carguen correctamente y sean de alta calidad.
+        Enlaces: Verificar que todos los enlaces internos y externos funcionen correctamente y dirijan a las páginas correspondientes.
+
+    Pruebas de integración:
+        Integración con sistemas de pago: Verificar que la plataforma se integre correctamente con los sistemas de pago externos, como PayPal o Stripe.
+        Integración con sistemas de gestión de inventario: Probar la sincronización entre la plataforma y el sistema de gestión de inventario para garantizar la disponibilidad precisa de productos.
+
+    Pruebas de localización:
+        Idiomas y monedas: Verificar que la plataforma sea compatible con diferentes idiomas y monedas, según las necesidades del mercado objetivo.
+
+    Pruebas de accesibilidad:
+        Verificar que la web sea accesible para usuarios con discapacidades, cumpliendo con los estándares de accesibilidad web (WCAG).
+
+    Pruebas de recuperación ante fallos:
+        Simular fallos en el sistema, como caídas del servidor o interrupciones de red, y verificar que la plataforma pueda recuperarse correctamente sin perder datos ni funcionalidades importantes.
+
+Este plan de pruebas cubre una amplia gama de aspectos para garantizar la calidad y la funcionalidad de la web de venta online de camisetas.
