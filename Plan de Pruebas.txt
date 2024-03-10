@@ -44,4 +44,44 @@
     Pruebas de recuperación ante fallos:
         Simular fallos en el sistema, como caídas del servidor o interrupciones de red, y verificar que la plataforma pueda recuperarse correctamente sin perder datos ni funcionalidades importantes.
 
-Este plan de pruebas cubre una amplia gama de aspectos para garantizar la calidad y la funcionalidad de la web de venta online de camisetas.
+Este plan de pruebas cubre una amplia gama de aspectos para garantizar la calidad y la funcionalidad.
+
+
+    Pruebas de funcionalidad:
+
+    a. Registro de usuario:
+    - Pruebas de datos válidos: Verificar que los usuarios puedan registrarse con datos válidos y que el sistema acepte correctamente la información necesaria, como nombre, dirección de correo electrónico y contraseña.
+    - Pruebas de datos inválidos: Confirmar que el sistema valide correctamente los campos del formulario de registro y muestre mensajes de error adecuados en caso de que se ingresen datos inválidos o incompletos.
+    - Pruebas de confirmación de correo electrónico: Verificar que el sistema envíe un correo electrónico de confirmación después del registro y que los usuarios puedan activar sus cuentas correctamente a través del enlace proporcionado.
+
+    b. Inicio de sesión:
+    - Pruebas de credenciales válidas: Verificar que los usuarios puedan iniciar sesión con éxito utilizando las credenciales correctas.
+    - Pruebas de credenciales inválidas: Confirmar que el sistema valide correctamente las credenciales de inicio de sesión y muestre mensajes de error apropiados en caso de credenciales incorrectas.
+    - Pruebas de recuperación de contraseña: Verificar que los usuarios puedan restablecer su contraseña de manera segura y efectiva en caso de olvidarla, a través de un proceso de recuperación de contraseña por correo electrónico o preguntas de seguridad.
+
+    c. Búsqueda de productos:
+    - Pruebas de búsqueda por nombre: Verificar que los usuarios puedan encontrar productos buscando por su nombre, asegurándose de que los resultados sean precisos y relevantes.
+    - Pruebas de búsqueda por categoría: Confirmar que los usuarios puedan navegar por las diferentes categorías de productos y que la búsqueda por categoría devuelva resultados pertinentes.
+    - Pruebas de búsqueda avanzada: Verificar que los usuarios puedan utilizar filtros avanzados, como talla, color o precio, para refinar sus búsquedas y encontrar productos específicos con facilidad.
+
+    d. Agregar al carrito:
+    - Pruebas de funcionalidad del botón "Agregar al carrito": Verificar que los usuarios puedan agregar productos al carrito con un solo clic y que la acción se realice de manera rápida y sin errores.
+    - Pruebas de cantidad y variaciones: Confirmar que los usuarios puedan seleccionar la cantidad deseada de un producto y elegir entre diferentes variaciones, como color o talla, si están disponibles.
+    - Pruebas de actualización del carrito: Verificar que el carrito se actualice correctamente después de agregar o eliminar productos, mostrando la información actualizada de forma precisa.
+
+    e. Proceso de pago:
+    - Pruebas de diferentes métodos de pago: Verificar que los usuarios puedan completar el proceso de pago utilizando diferentes métodos, como tarjeta de crédito, PayPal o transferencia bancaria, según las opciones disponibles.
+    - Pruebas de flujo de pago: Confirmar que el proceso de pago sea claro y fácil de seguir, con pasos lógicos y opciones para revisar y modificar la información antes de confirmar la compra.
+    - Pruebas de confirmación de pedido: Verificar que los usuarios reciban una confirmación clara y detallada después de completar la compra, incluyendo información sobre el pedido, el método de pago y la fecha de entrega estimada.
+
+    f. Gestión de pedidos:
+    - Pruebas de visualización de historial de pedidos: Verificar que los usuarios puedan ver un historial completo de sus pedidos anteriores, incluyendo detalles como productos comprados, fechas de compra y estado del pedido.
+    - Pruebas de modificación de pedidos: Confirmar que los usuarios puedan realizar acciones como cancelar un pedido pendiente o modificar la dirección de envío antes de que se envíe el producto.
+    - Pruebas de seguimiento de envíos: Verificar que los usuarios puedan rastrear el estado de sus pedidos en tiempo real, utilizando información de seguimiento proporcionada por el servicio de mensajería.
+
+    g. Gestión de cuenta:
+    - Pruebas de edición de perfil: Verificar que los usuarios puedan actualizar su información de perfil, como dirección de envío o información de contacto, de manera fácil y segura.
+    - Pruebas de cambio de contraseña: Confirmar que los usuarios puedan cambiar su contraseña de manera segura y que el sistema valide correctamente la nueva contraseña según los requisitos de seguridad establecidos.
+    - Pruebas de cierre de sesión: Verificar que los usuarios puedan cerrar sesión de manera segura y que todas las sesiones activas se cierren correctamente para evitar acceso no autorizado a la cuenta.
+
+Estas pruebas de funcionalidad abarcan los aspectos clave del proceso de compra y utilizan diversos enfoques para garantizar que la web de venta online de camisetas funcione correctamente y proporcione una experiencia de usuario satisfactoria.
