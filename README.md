@@ -1,4 +1,4 @@
-# Automatización de Pruebas para Tienda de Camisetas Personalizadas
+# Automatización de Pruebas para ymcbrand.com
 
 Este proyecto tiene como objetivo garantizar la calidad y funcionalidad de la tienda virtual de camisetas personalizadas ymcbrand.com mediante la automatización de pruebas.
 Esto incluye la verificación de la navegación del usuario, la funcionalidad del carrito de compras, y la correcta personalización y compra de camisetas.
