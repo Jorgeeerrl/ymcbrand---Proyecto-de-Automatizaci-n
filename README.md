@@ -1,3 +1,6 @@
+<img align="top" src="https://github.com/Jorgeeerrl/ymcbrand---Proyecto-de-Automatizaci-n/blob/main/Recursos/Ymc%20Brand.webp" width="450" />
+
+
 # Automatización de Pruebas para ymcbrand.com
 
 Este proyecto tiene como objetivo garantizar la calidad y funcionalidad de la tienda virtual de camisetas personalizadas ymcbrand.com mediante la automatización de pruebas.
