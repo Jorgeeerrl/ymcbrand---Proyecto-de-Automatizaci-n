@@ -1,0 +1,160 @@
+{
+  "id": "37f97c3f-887e-4c48-969d-cbfb225afaa5",
+  "version": "2.0",
+  "name": "ymcbrand",
+  "url": "https://www.ymcbrand.com/",
+  "tests": [{
+    "id": "90fb1da6-cacf-4040-a6b4-d1e8309ceb1e",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "654f1861-bb0f-4fe4-bcf7-b86f4eb10d7a",
+    "name": "Test Login",
+    "commands": [{
+      "id": "dd22c334-687d-4bd6-929d-2f70fa361dec",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ymcbrand.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a1e3cda-87e8-45a8-a75d-135a495b85b5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ea958f9-9f46-4ff3-97b2-b825dedadfea",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Identificarse",
+      "targets": [
+        ["linkText=Identificarse", "linkText"],
+        ["css=.ms-lg-3 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Identificarse')]", "xpath:link"],
+        ["xpath=//ul[@id='top_menu']/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/web/login')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Identificarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3ed0c3b-fc76-4997-8aa8-5eca796e590a",
+      "comment": "",
+      "command": "type",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapwrap']/main/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "jorgeeerrl@gmail.com"
+    }, {
+      "id": "5968dd80-8a50-471a-9927-287cd387a53e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapwrap']/main/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "696635548J"
+    }, {
+      "id": "4e0e8830-517e-487d-98dd-d815136a4d83",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapwrap']/main/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f130bc-bfad-462a-a940-087e877e0ac3",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapwrap']/main/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a694a56-b729-4886-8e14-9c4020587e51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oe_website_login_container",
+      "targets": [
+        ["css=.oe_website_login_container", "css:finder"],
+        ["xpath=//div[@id='wrapwrap']/main/div", "xpath:idRelative"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c741eac1-6a1b-46d4-960a-fb064ba532f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapwrap']/main/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "765e4aa3-d5ef-4837-88d0-aa47f3f8c28f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapwrap']/main/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e6c4b8c-e287-4ca5-81ea-8ee5d786a52f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.fw-bold > span",
+      "targets": [
+        ["css=.fw-bold > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Jorgeeerrl')]", "xpath:innerText"]
+      ],
+      "value": "Jorgeeerrl"
+    }]
+  }],
+  "suites": [{
+    "id": "907d2236-cde8-4f6e-93f6-2239a6d0bbfc",
+    "name": "Login",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["654f1861-bb0f-4fe4-bcf7-b86f4eb10d7a"]
+  }],
+  "urls": ["https://www.ymcbrand.com/"],
+  "plugins": []
+}
