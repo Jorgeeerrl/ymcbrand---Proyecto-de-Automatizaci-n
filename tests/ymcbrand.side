@@ -717,6 +717,635 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "d334c67d-9984-4cc5-a8f0-10811b4f441b",
+    "name": "test_botones superiores",
+    "commands": [{
+      "id": "298df0ba-b69a-4bde-bac1-68b90f3414f1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ymcbrand.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30732916-8b66-4ac1-ad3d-2a5aa20b4dfa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1140902b-2456-487b-9147-e1e81fb5a984",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.active > span",
+      "targets": [
+        ["css=.active > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "862b3a79-9911-4d67-915d-8e92bd7fd271",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.nav-item:nth-child(2) span",
+      "targets": [
+        ["css=.nav-item:nth-child(2) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Servicios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a356527-b01a-490c-8a86-2442db2beffe",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Precios y tallas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "26e5d381-28fe-4132-a570-f8d2841f4a2e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.nav-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-item:nth-child(4) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cita')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61f297d5-0f41-4af8-83a9-d47721069dce",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.nav-item:nth-child(5) span",
+      "targets": [
+        ["css=.nav-item:nth-child(5) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nuestros trabajos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a44d655-46fa-4570-adc8-30859249cc46",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.dropdown-toggle > span",
+      "targets": [
+        ["css=.dropdown-toggle > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Stanley Stella')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08fe8531-c7d9-4db1-90e9-459f2e38a1ee",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.nav-item:nth-child(7) span",
+      "targets": [
+        ["css=.nav-item:nth-child(7) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sobre Nosotros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "307d6041-5245-4355-aaa3-9eef97b61f54",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.nav-item:nth-child(8) span",
+      "targets": [
+        ["css=.nav-item:nth-child(8) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Contacto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bd7448b-72a0-4671-aa3e-5ae2a9eda497",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//a[contains(@href, '/web/login')]",
+      "targets": [
+        ["linkText=Identificarse", "linkText"],
+        ["css=.ms-lg-3 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Identificarse')]", "xpath:link"],
+        ["xpath=//ul[@id='top_menu']/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/web/login')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Identificarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ab83ad0-1d48-4b37-bc99-fb25c05ba35f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe4528ab-9b93-48bf-ae2e-2e86b0d88d3d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=li:nth-child(1) > .dropdown-item > span",
+      "targets": [
+        ["css=li:nth-child(1) > .dropdown-item > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[6]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sobre la marca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f63c815-5c45-421d-9433-7263649c8dc8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=li:nth-child(2) > .dropdown-item > span",
+      "targets": [
+        ["css=li:nth-child(2) > .dropdown-item > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[6]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Catálogo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50717827-6310-4e1a-8024-127a602a25fa",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=a > strong",
+      "targets": [
+        ["css=a > strong", "css:finder"],
+        ["xpath=//div[@id='oe_structure_header_vertical_2']/section/div/small/a/strong", "xpath:idRelative"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'T. 96 381 30 55')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c5c5f10-f9a2-452d-aa62-899b95d104af",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=span > .img",
+      "targets": [
+        ["css=span > .img", "css:finder"],
+        ["xpath=//img[@alt='Ymc Brand']", "xpath:img"],
+        ["xpath=//div[@id='top_menu_container']/div/a/span/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db7896c5-ba41-48ea-b9e9-8422611d5b45",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "21fef88f-ac07-4e7b-8a6b-a9d1918ca330",
+    "name": "test_botones_inferiores",
+    "commands": [{
+      "id": "3aaea77e-4ef3-4b1a-b570-f27687f0c51d",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48175b7e-5ddb-40d8-abb8-54c50b6fe39a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a63e250-6061-45a7-8791-46025065c719",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h6:nth-child(2) span",
+      "targets": [
+        ["css=h6:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[5]/h6/a/font/span", "xpath:idRelative"],
+        ["xpath=//h6/a/font/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09acb438-c8ef-4c3e-98db-6321f2a0468e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h6:nth-child(3) span",
+      "targets": [
+        ["css=h6:nth-child(3) span", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[5]/h6[2]/a/font/span", "xpath:idRelative"],
+        ["xpath=//h6[2]/a/font/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nuestra compañía')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "037ccd25-0a79-40f9-bf31-408f1eacf567",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h6:nth-child(4) span",
+      "targets": [
+        ["css=h6:nth-child(4) span", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[5]/h6[3]/a/font/span", "xpath:idRelative"],
+        ["xpath=//h6[3]/a/font/span", "xpath:position"],
+        ["xpath=//span[contains(.,'​​​​​​C​a​s​os de ​é​xit​o')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90cd29d7-a5a1-49fe-b98e-1485afb12cc1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h6:nth-child(5) span",
+      "targets": [
+        ["css=h6:nth-child(5) span", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[5]/h6[4]/a/font/span", "xpath:idRelative"],
+        ["xpath=//h6[4]/a/font/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Política de privacidad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f56d1ec8-f33a-48ae-a3c7-339f8f2999a2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=p:nth-child(2) .text-o-color-3 > span",
+      "targets": [
+        ["css=p:nth-child(2) .text-o-color-3 > span", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div/p[2]/a/font/span", "xpath:idRelative"],
+        ["xpath=//a/font/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Recursos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6021d58-6402-481a-bff9-7ef8629bb4ba",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=p:nth-child(3) .text-o-color-3 > span",
+      "targets": [
+        ["css=p:nth-child(3) .text-o-color-3 > span", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div/p[3]/a/font/span", "xpath:idRelative"],
+        ["xpath=//p[3]/a/font/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Diseño y Archivos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "709f9340-ee0b-4435-bac5-b3323a172a5b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=p:nth-child(4) .text-o-color-3 > span",
+      "targets": [
+        ["css=p:nth-child(4) .text-o-color-3 > span", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div/p[4]/a/font/span", "xpath:idRelative"],
+        ["xpath=//p[4]/a/font/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Términos y Condiciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34e6d190-4bc6-48e5-b735-f40c98ec38ab",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.g-col-lg-2 .py-1:nth-child(1) .text-o-color-5",
+      "targets": [
+        ["css=.g-col-lg-2 .py-1:nth-child(1) .text-o-color-5", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[2]/ul/li/a/font", "xpath:idRelative"],
+        ["xpath=//li/a/font", "xpath:position"],
+        ["xpath=//font[contains(.,'Facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "855c6340-4097-4eeb-9f90-55428c28c2a1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.py-1:nth-child(2) > a > .text-o-color-5",
+      "targets": [
+        ["css=.py-1:nth-child(2) > a > .text-o-color-5", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[2]/ul/li[2]/a/font", "xpath:idRelative"],
+        ["xpath=//li[2]/a/font", "xpath:position"],
+        ["xpath=//font[contains(.,'Instagram')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5b5321c-f2bf-4a57-91ac-f3108de275a5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.g-col-lg-3 .py-1 > a > .text-o-color-5",
+      "targets": [
+        ["css=.g-col-lg-3 .py-1 > a > .text-o-color-5", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[3]/ul/li/a/font", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li/a/font", "xpath:position"],
+        ["xpath=//font[contains(.,'​info@ymcbrand.com​')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d374e359-5fb5-44c3-aa4d-2a87c4a691d9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.o_force_ltr .text-o-color-5",
+      "targets": [
+        ["css=.o_force_ltr .text-o-color-5", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[3]/ul/li[2]/span/a/font", "xpath:idRelative"],
+        ["xpath=//span/a/font", "xpath:position"],
+        ["xpath=//font[contains(.,'96 381 30 55')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68d30e07-a4d9-4391-9457-6b872945f586",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.text-muted:nth-child(2) > .text-o-color-5",
+      "targets": [
+        ["css=.text-muted:nth-child(2) > .text-o-color-5", "css:finder"],
+        ["xpath=//div[@id='footer']/section/div/div/div[4]/p/font", "xpath:idRelative"],
+        ["xpath=//div[4]/p/font", "xpath:position"],
+        ["xpath=//font[contains(.,'​C/ Vinatea, 20 - bajo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "319c76ec-c943-43d6-9999-10b11117b4b5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "94bb6ad1-4b7a-4d59-aa92-3d7d1bac5a1d",
+    "name": "test_links correctos",
+    "commands": [{
+      "id": "8c4b1878-66b3-4463-9cb4-c51b1dffe023",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ymcbrand.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29fa29e3-bb46-4016-a54d-a61d9c902a1e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "211c590e-8b6d-45c4-9ad7-338539ee742d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > span",
+      "targets": [
+        ["css=.active > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Inicio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9d1d458-6f36-4872-9b96-e8e8fa17cbc5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.jumbotron",
+      "targets": [
+        ["css=.jumbotron", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/section/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//section/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdb1e644-9fba-48f4-a685-95cbd8418a70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(3) span",
+      "targets": [
+        ["css=.nav-item:nth-child(3) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Precios y tallas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a3cf562-e37e-4a9a-b82e-e9ea130f5445",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.text-800 > span > strong",
+      "targets": [
+        ["css=.text-800 > span > strong", "css:finder"],
+        ["xpath=//div[@id='wrap']/div/section[2]/div/div/h1/span/font/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'PRECIOS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e7c78b-c6fb-49ea-bd84-3c79f6650553",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) span",
+      "targets": [
+        ["css=.nav-item:nth-child(4) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Cita')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e5783b3-d017-460d-886e-a1ec0aabb083",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=span:nth-child(1) > strong",
+      "targets": [
+        ["css=span:nth-child(1) > strong", "css:finder"],
+        ["xpath=//div[@id='wrap']/section[2]/div[3]/h1/span/font/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'CITA PREVIA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f2d9b24-619c-4652-ad75-a43d24338e16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(5) span",
+      "targets": [
+        ["css=.nav-item:nth-child(5) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Nuestros trabajos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64dc0bdf-d6f8-4892-bcf2-4655040bd7a4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.lead",
+      "targets": [
+        ["css=.lead", "css:finder"],
+        ["xpath=//div[@id='wrap']/section/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "384ba666-f22d-4259-80d6-e403b1e1cde6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle > span",
+      "targets": [
+        ["css=.dropdown-toggle > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Stanley Stella')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a849df19-796d-4229-be65-c06401cce8ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .dropdown-item > span",
+      "targets": [
+        ["css=li:nth-child(1) > .dropdown-item > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[6]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sobre la marca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9fb0140-92dd-4a16-8353-f5e1d541f64d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Descubre más sobre Stanley Stella",
+      "targets": [
+        ["linkText=Descubre más sobre Stanley Stella", "linkText"],
+        ["css=.mb-2:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Descubre más sobre Stanley Stella')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/section[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Descubre más sobre Stanley Stella')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7368a200-63d8-4613-96bb-733d382a09f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle > span",
+      "targets": [
+        ["css=.dropdown-toggle > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Stanley Stella')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81d5dafb-b449-42ce-b8a3-406213d79341",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .dropdown-item > span",
+      "targets": [
+        ["css=li:nth-child(2) > .dropdown-item > span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[6]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Catálogo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "070c6144-8f81-4101-ad8a-0d272e4a426c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=embeddable-catalogue--logo",
+      "targets": [
+        ["id=embeddable-catalogue--logo", "id"],
+        ["xpath=//img[@alt='stanley/stella logo']", "xpath:img"],
+        ["xpath=//img[@id='embeddable-catalogue--logo']", "xpath:attributes"],
+        ["xpath=//a[@id='anchor--logo']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "556ac558-0616-48d6-93a4-c0a89d28fb9f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(7) span",
+      "targets": [
+        ["css=.nav-item:nth-child(7) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sobre Nosotros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71f8713b-a173-468d-a003-851a66b55b53",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.text-800 > span",
+      "targets": [
+        ["css=.text-800 > span", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[2]/section/div/h1/span/font/span", "xpath:idRelative"],
+        ["xpath=//font/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8879107b-520a-4f49-89cf-bc315570ab6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(8) span",
+      "targets": [
+        ["css=.nav-item:nth-child(8) span", "css:finder"],
+        ["xpath=//ul[@id='top_menu']/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Contacto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba01dee7-816e-4438-ac82-95571e324ab1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.s_title p:nth-child(2)",
+      "targets": [
+        ["css=.s_title p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='wrap']/section/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Sobre cualquier duda relacionada con nuestra empresa o servicios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06f9d7b6-e680-485d-ba7c-8668cc61c36a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Identificarse",
+      "targets": [
+        ["linkText=Identificarse", "linkText"],
+        ["css=.ms-lg-3 > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Identificarse')]", "xpath:link"],
+        ["xpath=//ul[@id='top_menu']/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/web/login')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Identificarse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87a4f628-08a4-4f09-a19b-3819b5969bd9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='wrapwrap']/main/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1432df58-490e-4e9d-9b7e-1775fae33f45",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "907d2236-cde8-4f6e-93f6-2239a6d0bbfc",
@@ -725,6 +1354,13 @@
     "parallel": false,
     "timeout": 300,
     "tests": ["176f8fd8-b533-4384-8763-1e973d73d864", "7d1c2960-3898-4e7d-9e15-679e07a8c71f", "582e5200-9607-4884-9ecd-a915169296b9", "654f1861-bb0f-4fe4-bcf7-b86f4eb10d7a"]
+  }, {
+    "id": "8ad73ea6-f9db-4f60-89c7-9309285be1b2",
+    "name": "test_suite_inicio",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d334c67d-9984-4cc5-a8f0-10811b4f441b", "21fef88f-ac07-4e7b-8a6b-a9d1918ca330", "94bb6ad1-4b7a-4d59-aa92-3d7d1bac5a1d"]
   }],
   "urls": ["https://www.ymcbrand.com/"],
   "plugins": []
