@@ -20,10 +20,10 @@ El desarrollo se llevará a cabo en el entorno de desarrollo PyCharm. Las prueba
 
 La organización del proyecto se divide en las siguientes carpetas:
 
-- **tests** Contiene los scripts de automatización de pruebas.
-- **config** Almacena archivos de configuración necesarios.
-- **reportes** Guarda los informes generados durante la ejecución de las pruebas.
-- **adjuntos** Almacena capturas de pantalla en caso de fallos.
+- **Tests** Contiene los scripts de automatización de pruebas.
+- **Config** Almacena archivos de configuración necesarios.
+- **Reportes** Guarda los informes de defectos generados durante la ejecución de las pruebas.
+- **Adjuntos** Almacena capturas de pantalla, vídeos, etc.
 
 ## Ejecución de Pruebas
 
@@ -33,6 +33,6 @@ Para ejecutar las pruebas, sigue estos pasos:
 2. Configura el entorno de desarrollo y las dependencias.
 3. Ejecuta los scripts de pruebas desde PyCharm o mediante la línea de comandos.
 
-¡Contribuciones y mejoras son bienvenidas! Si encuentras problemas o tienes sugerencias, no dudes en abrir un problema o enviar un pull request.
+Si tienes alguna sugerencia, no dudes en abrir un issue o enviar un pull request.
 
-Happy testing! 🚀
+
